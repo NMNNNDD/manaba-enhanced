@@ -14,7 +14,7 @@
     "contextMenus",
     "webRequest",
     "webRequestBlocking",
-    "*://manaba.tsukuba.ac.jp/*"
+    "*://hgu.manaba.jp/ct/*"
   ],
   "options_page": "options.html",
   "background": {
@@ -23,7 +23,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://manaba.tsukuba.ac.jp/*"],
+      "matches": ["https://hgu.manaba.jp/ct/*"],
       "run_at": "document_start",
       "js": ["contentScript.js"]
     }
